@@ -1,0 +1,162 @@
+nav {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 0px 20px;
+  font-size: 15px;
+  font-family: "Orbitron";
+  font-weight: 600;
+  width: 60px;
+}
+
+li:hover{
+    font-weight: 800;
+    /* text-decoration: underline; */
+    font-size: 18px;
+    border-bottom: 3px solid black;
+}
+
+.list-item:nth-child(3) {
+  order: -1;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-button {
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  background-color: white;
+}
+
+.search-icon {
+  position: relative;
+  width: 40px;
+  transform: scale(0.7);
+}
+
+[alt='brand-logo'] {
+  width: 100px;
+}
+
+[alt='person-hero-iamge'] {
+  width: 350px;
+  height: 430px;
+  position: absolute;
+  left: 80px;
+  top: 140px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+[alt='square-pattern'] {
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  left: 220px;
+  top: 350px;
+  z-index: -1;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 45%;
+  height: 100%;
+}
+
+.hero-heading {
+  font-size: 40px;
+  font-family: 'Orbitron';
+  font-weight: 800;
+}
+
+[alt='globe-pattern'] {
+  position: relative;
+  width: 45px;
+  margin-left: 100px;
+  top: 18px;
+}
+
+[alt="start-pattern"]{
+    position: relative;
+    top: 50px;
+    left: 550px;
+    width: 40px;
+}
+
+p {
+  text-align-last: center;
+}
+
+.button-email,
+.button-join {
+  position: relative;
+  top: 50px;
+  font-family: 'Orbitron';
+  padding: 0px 0px;
+  border-radius: 5px;
+}
+
+.button-join{
+    background-color: black;
+    color: white;
+}
+
+.button-email{
+    padding: 0px 30px;
+    border-radius: 5px;
+    right: 10px
+}
+
+.icons{
+    position: relative;
+}
+
+.hero-description{
+    font-size: 12px;
+    width: 400px;
+}
+
+[alt="facebook-icon"],
+[alt="messenger-icon"],
+[alt="instagram-icon"],
+[alt="whatsapp-icon"] {
+    position: relative;
+    width: 20px; 
+    padding: 5px;
+    bottom: -70px;
+}
+
+.contact-heading{
+    position: relative;
+    bottom: -85px;
+    left: 30px;
+    font-size: 15px;
+    color: #959595;
+}
